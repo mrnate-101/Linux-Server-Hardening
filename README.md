@@ -1,17 +1,16 @@
 # Linux Server Hardening & Intrusion Prevention
 
-Real Ubuntu Server hardened like enterprise systems.
+Real Ubuntu Server secured with enterprise-grade controls.
 
-**Target:** Ubuntu Server (192.168.64.3)  
 **Defenses Implemented:**
-- UFW stateful firewall (only SSH + HTTP allowed)
-- Fail2ban with custom SSH jail (bans after 5 failed logins)
-- Secure SSH config coming soon
+- UFW firewall (only SSH & HTTP allowed)
+- Fail2ban (auto-bans IPs after 5 failed SSH logins)
 
-## Next Steps (Tomorrow)
-- Run failed SSH logins from Kali
-- Screenshot Fail2ban banning the attacker IP
-- Screenshot UFW status
+**Live Proof:** Kali attacker (192.168.64.4) got permanently banned after failed logins
 
-**Skills Demonstrated:**
-Firewall configuration · Intrusion prevention · Defense validation · Linux security best practices
+## Screenshots
+![UFW Firewall](screenshots/ufw.png)
+![Fail2ban Service Active](screenshots/fail2ban-active.png)
+![Attacker IP Banned by Fail2ban](screenshots/fail2ban-ban.png)
+
+**Skills:** Linux hardening · Firewall management · Intrusion prevention · Defense validation
