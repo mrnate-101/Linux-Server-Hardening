@@ -12,7 +12,7 @@ Real Ubuntu Server secured with enterprise-grade controls.
 **Live Proof:** Kali attacker (192.168.64.4) got permanently banned after failed logins
 
 ## Screenshots
-![UFW Firewall Active](Kali((attacker)IPbanned.png)
+![Attacker](screenshots/Kali(attacker)IPbanned.png)
 ![UFW Firewall Active](screenshots/firewall enabled on Ubuntu ports(except Http, ssh ports).png .png)
 ![UFW Firewall Active](screenshots/first 3 attacks from Kali failed.png)
 ![UFW Firewall Active](screenshots/kali linux permission denied.png)
