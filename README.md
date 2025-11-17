@@ -15,7 +15,7 @@ Real Ubuntu Server secured with enterprise-grade controls.
 ![Fail2ban Installed & Active](screenshots/fail2ban-installed.png)
 ![UFW Firewall Active](screenshots/firewall-enabled-on-Ubuntu-ports(except-Http,ssh-ports).png)
 ![Attacks failed](screenshots/first-3-attacks-from-Kali-failed.png)
-![UFW Firewall Active](screenshots/kali-linux-permission-denied.png)
+![UFW Attacker Permission Denied](screenshots/kali-linux-permission-denied.png)
 ![Attacker IP banned by server](screenshots/Kali(attacker)IPbanned.png)
 ![Server Dispalying blocked IP](screenshots/my-ubuntu-(victim)-showing-the-banned-ip-address.png)
 
