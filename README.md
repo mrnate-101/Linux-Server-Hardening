@@ -2,6 +2,9 @@
 
 Real Ubuntu Server secured with enterprise-grade controls.
 
+**Attacker:** Kali Linux (192.168.64.4) 
+**Target:** Ubuntu Server (192.168.64.3) 
+
 **Defenses Implemented:**
 - UFW firewall (only SSH & HTTP allowed)
 - Fail2ban (auto-bans IPs after 5 failed SSH logins)
